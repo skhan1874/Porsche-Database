@@ -259,4 +259,13 @@ INSERT INTO INVOICE VALUES (456, 1223, 14,  52061, 91930);
 INSERT INTO INVOICE VALUES (457, 1223, 14,  89495, 302540);
 INSERT INTO INVOICE VALUES (656, 1223, 15, 83551, 99180);
 
+UPDATE EMPLOYEE
+SET emp_fname = 'Steve', emp_lname = 'Rogers'
+WHERE emp_ID = 165243;
+
+UPDATE VEHICLE
+SET vehicle_price = 125000, exterior_color = 'Sapphire Blue Metallic'
+WHERE stock_number = 56849;     
+
+
 
